@@ -1,0 +1,153 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SQL Query Options</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f0f0f0;
+            margin: 0;
+            padding: 0;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+        }
+
+        .container {
+            background-color: #fff;
+            padding: 30px;
+            border-radius: 10px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+            text-align: center;
+            width: 80%;
+            max-width: 600px;
+        }
+
+        h1 {
+            color: #333;
+            margin-bottom: 20px;
+        }
+
+        h2 {
+            color: #666;
+            margin-bottom: 5px;
+        }
+
+        .option-container {
+            text-align: left;
+            margin-bottom: 15px;
+        }
+
+        .option-label {
+            font-weight: bold;
+            margin-left: 5px;
+            vertical-align: middle;
+            display: inline-block;
+        }
+
+        .checkbox-container {
+            display: inline-block;
+            vertical-align: middle;
+        }
+
+        .button-container {
+            display: flex;
+            justify-content: space-between;
+            margin-top: 20px;
+            padding-bottom: 25px;
+            border-bottom: 1px solid #ccc;
+
+
+        }
+
+        .button {
+            padding: 15px;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+            font-size: 16px;
+            width: 48%;
+        }
+
+        .execute {
+            background-color: #4caf50;
+            color: #fff;
+        }
+
+        .clear {
+            background-color: #f44336;
+            color: #fff;
+        }
+
+        .centered {
+            text-align: center;
+        }
+
+        .highlighted {
+            color: red;
+ 
+        }
+
+        .extra-space{
+            margin-bottom: 25px;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="container">
+        <h1>Enterprise System</h1>
+        <div class="centered">
+            <h2>You are connected to the Project 4 Enterprise System database as an <span
+                    class="highlighted">accountant-level</span> user.</h2>
+            <p class="extra-space">Please select the operation you would like to perform from the list below.</p>
+        </div>
+        <div class="option-container">
+            <div class="checkbox-container">
+                <input type="checkbox" id="option1" name="option1" value="option1">
+            </div>
+            <label for="option1" class="option-label">Get the maximum status value of all suppliers</label>
+        </div>
+        <div class="option-container">
+            <div class="checkbox-container">
+                <input type="checkbox" id="option2" name="option2" value="option2">
+            </div>
+            <label for="option2" class="option-label">Get the total weight of all parts</label>
+        </div>
+        <div class="option-container">
+            <div class="checkbox-container">
+                <input type="checkbox" id="option3" name="option3" value="option3">
+            </div>
+            <label for="option3" class="option-label">Get the total number of shipments</label>
+        </div>
+        <div class="option-container">
+            <div class="checkbox-container">
+                <input type="checkbox" id="option4" name="option4" value="option4">
+            </div>
+            <label for="option4" class="option-label">Get the name and number of workers of the job with the most
+                workers</label>
+        </div>
+        <div class="option-container">
+            <div class="checkbox-container">
+                <input type="checkbox" id="option5" name="option5" value="option5">
+            </div>
+            <label for="option5" class="option-label">List the name and status of every supplier</label>
+        </div>
+        <div class="button-container">
+            <button class="button execute">Execute command</button>
+            <button class="button clear">Clear results</button>
+        </div>
+
+        <h2>Execution Results</h2>
+        <div class="results">
+            <!-- Execution results will appear here -->
+        </div>
+    </div>
+</body>
+
+</html>

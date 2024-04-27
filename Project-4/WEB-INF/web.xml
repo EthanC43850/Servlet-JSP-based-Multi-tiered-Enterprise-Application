@@ -1,0 +1,139 @@
+<web-app>
+    <display-name>
+        CNT 4714 Spring 2024 Servlet First Example
+    </display-name>
+    <description>
+        This is the Web application in whcih we will
+        demonstrate our first servlet example.
+    </description>
+
+    <servlet>
+        <description>
+            A simple servlet that handles an HTTP get request.
+        </description>
+        <servlet-name>alpha</servlet-name>
+        <servlet-class>
+            AuthenticationServlet
+        </servlet-class>
+    </servlet>
+            <servlet-mapping>
+                <servlet-name>alpha</servlet-name>
+                <url-pattern>/authentication</url-pattern>
+            </servlet-mapping>
+    
+
+    <servlet>
+        <description>
+            A simple servlet that handles an HTTP get request.
+        </description>
+        <servlet-name>charlie</servlet-name>
+        <servlet-class>
+            RootUserServlet
+        </servlet-class>
+    </servlet>
+            <servlet-mapping>
+                <servlet-name>charlie</servlet-name>
+                <url-pattern>/RootUserServlet</url-pattern>
+            </servlet-mapping>
+
+    <servlet>
+        <description>
+            A simple servlet that handles an HTTP get request.
+        </description>
+        <servlet-name>echo</servlet-name>
+        <servlet-class>
+            ClientServlet
+        </servlet-class>
+    </servlet>
+            <servlet-mapping>
+                <servlet-name>echo</servlet-name>
+                <url-pattern>/ClientServlet</url-pattern>
+            </servlet-mapping>
+    
+    <servlet>
+        <description>
+            A simple servlet that handles an HTTP get request.
+        </description>
+        <servlet-name>fox</servlet-name>
+        <servlet-class>
+            SuppliersInsertServlet
+        </servlet-class>
+    </servlet>
+            <servlet-mapping>
+                <servlet-name>fox</servlet-name>
+                <url-pattern>/SuppliersInsertServlet</url-pattern>
+            </servlet-mapping>
+
+    <servlet>
+        <description>
+            A simple servlet that handles an HTTP get request.
+        </description>
+        <servlet-name>Golf</servlet-name>
+        <servlet-class>
+            PartsInsertServlet
+        </servlet-class>
+    </servlet>
+            <servlet-mapping>
+                <servlet-name>Golf</servlet-name>
+                <url-pattern>/PartsInsertServlet</url-pattern>
+            </servlet-mapping>
+
+    <servlet>
+        <description>
+            A simple servlet that handles an HTTP get request.
+        </description>
+        <servlet-name>Hector</servlet-name>
+        <servlet-class>
+            JobsInsertServlet
+        </servlet-class>
+    </servlet>
+            <servlet-mapping>
+                <servlet-name>Hector</servlet-name>
+                <url-pattern>/JobsInsertServlet</url-pattern>
+            </servlet-mapping>
+
+    <servlet>
+        <description>
+            A simple servlet that handles an HTTP get request.
+        </description>
+        <servlet-name>Indiana</servlet-name>
+        <servlet-class>
+            ShipmentsInsertServlet
+        </servlet-class>
+    </servlet>
+            <servlet-mapping>
+                <servlet-name>Indiana</servlet-name>
+                <url-pattern>/ShipmentsInsertServlet</url-pattern>
+            </servlet-mapping>
+    
+    <servlet>
+        <description>
+            A simple servlet that handles an HTTP get request.
+        </description>
+        <servlet-name>Johnny</servlet-name>
+        <servlet-class>
+            AccountantServlet
+        </servlet-class>
+    </servlet>
+            <servlet-mapping>
+                <servlet-name>Johnny</servlet-name>
+                <url-pattern>/AccountantServlet</url-pattern>
+            </servlet-mapping>
+
+    <servlet>
+        <description>
+            A simple servlet that handles an HTTP get request.
+        </description>
+        <servlet-name>beta</servlet-name>
+        <servlet-class>
+            rootHome
+        </servlet-class>
+    </servlet>
+            <servlet-mapping>
+                <servlet-name>beta</servlet-name>
+                <url-pattern>/rootHomeUser</url-pattern>
+            </servlet-mapping>
+
+
+
+</web-app>

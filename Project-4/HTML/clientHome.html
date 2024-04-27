@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Command Execution</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f0f0f0;
+            margin: 0;
+            padding: 0;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+        }
+
+        .container {
+            background-color: #fff;
+            padding: 30px;
+            border-radius: 10px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+            text-align: center;
+            width: 80%;
+            max-width: 600px;
+        }
+
+        h1 {
+            color: #333;
+            margin-bottom: 10px;
+        }
+
+        h2 {
+            color: #666;
+            margin-bottom: 20px;
+        }
+
+        input[type="text"] {
+            width: 100%;
+            padding: 20px;
+            margin-bottom: 20px;
+            border: 1px solid #ccc;
+            border-radius: 5px;
+            box-sizing: border-box;
+            font-size: 16px;
+        }
+
+        .button-container {
+            display: flex;
+            justify-content: space-between;
+            margin-bottom: 20px;
+        }
+
+        .button {
+            flex-grow: 1;
+            padding: 15px;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+            font-size: 16px;
+        }
+
+        .execute {
+            background-color: #4caf50;
+            color: #fff;
+            margin-right: 10px;
+        }
+
+        .reset {
+            background-color: #f44336;
+            color: #fff;
+            margin-right: 10px;
+        }
+
+        .clear {
+            background-color: #ffeb3b;
+            color: #333;
+        }
+
+        .results {
+            margin-top: 50px;
+            font-weight: bold;
+        }
+
+        .highlighted {
+            color: red;
+            /* Change the color to whatever you want */
+            /* You can also apply other styles here */
+        }
+
+        .centered {
+            text-align: center;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="container">
+        <h1>Enterprise System</h1>
+        <!-- <h2>Enter your command below:</h2> -->
+        <div class="centered">
+            <h2>You are connected to the Project 4 Enterprise System database as a <span
+                    class="highlighted">client-level</span> user.</h2>
+            <p>Please enter any SQL query or update command in the box below.</p>
+        </div>
+        <input type="text" placeholder="Enter your command">
+        <div class="button-container">
+            <button class="button execute">Execute Command</button>
+            <button class="button reset">Reset Form</button>
+            <button class="button clear">Clear Results</button>
+        </div>
+        <h2>Execution Results</h2>
+        <div class="results">
+            <!-- Execution results will appear here -->
+        </div>
+
+    </div>
+
+</body>
+
+</html>
