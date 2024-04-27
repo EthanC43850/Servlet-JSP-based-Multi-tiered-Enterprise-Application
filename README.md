@@ -13,4 +13,8 @@ A distributed three-tier web-based application which uses servlets and JSP techn
 
 ![Alt text](https://github.com/EthanC43850/Servlet-JSP-based-Multi-tiered-Enterprise-Application/blob/main/Screen%20Shots/picture4-3.PNG?raw=true)
 
+![Alt text](https://github.com/EthanC43850/Servlet-JSP-based-Multi-tiered-Enterprise-Application/blob/main/Screen%20Shots/picture5.PNG?raw=true)
+
+![Alt text](https://github.com/EthanC43850/Servlet-JSP-based-Multi-tiered-Enterprise-Application/blob/main/Screen%20Shots/picture6.PNG?raw=true)
+
 
